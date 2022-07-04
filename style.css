@@ -1,0 +1,35 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+.boss{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.half-1{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-1 h1{
+    font-size: 50px;
+}
+.half-1 img{
+    width: 68%;
+}
+.click-1{
+    text-decoration: none;
+    background-color:rgb(255, 200, 0);
+    padding: 10px 40px;
+    font-weight: 700;
+    color: white;
+    border-radius: 7px;
+}
+.click-1:hover{
+    background-color: rgba(218, 151, 171, 0.466);
+}
+.part-1{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
