@@ -5,8 +5,9 @@ body{
 .boss{
     color: orange;
 }
-section{
+.container{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-1{
     width: 50%;
@@ -32,4 +33,36 @@ section{
 .part-1{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.part-2{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.part-3{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+.fff{
+    font-size: 50px;
+    margin-left: 5%;
+}
+.box-shadow{
+    width: 50%;
+    box-shadow: 15px 15px 15px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    border-radius: 10px;
+}
+#Junior{
+    border-left: 7px solid tomato;
+}
+#Baby{
+    border-left: 7px solid blue ;
+}
+footer p{
+    text-align: center;
+    color: gray;
 }
